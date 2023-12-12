@@ -1,0 +1,156 @@
+/* the body */
+body{
+    background-color: gray ;
+    background:url(image/pramod-tiwari-ToHbBOTzuzU-unsplash.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+/* the top intro */
+.top{
+            border: 3px solid blue;
+    /* background-color: white; */
+    height: 150px;
+    border-radius: 20px;
+      font-size: 40px;
+        
+}
+ 
+#beside{
+    margin: 150px;
+        font-size: 60px;
+        text-transform: capitalize;
+        
+}
+#home:hover{
+ color: white; 
+ border: 3px solid black;
+ border-radius: 30px; 
+ border-style: inset;
+ }
+
+#login{
+    margin:10px;
+    border-radius: 10px;
+   }
+/* #login:hover {
+    margin: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+} */
+  .sign{
+    margin: 10px;
+    border-radius: 10px;
+    background-color:   blue;
+    color: white;
+    opacity: .6;
+  }
+  
+  .sign:hover{
+    margin: 10px;
+    border-radius: 10px;
+    background-color:   red;
+    color: white;
+    opacity: 9;
+  }
+  
+   a{
+    text-decoration: none;
+   }
+  /* end of top intro */
+
+  /* the half part of the work */
+  .mar{
+    color: white;
+  }
+  .half{
+    /* border: 3px solid ; */
+    min-height: 400px;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+     
+  }
+  .oga-up{
+        /* border: 3px solid; */
+                /* background-color: green; */
+    display: flex;
+    /* margin: 10px; */
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .oga-down{
+        /* border: 3px solid; */
+        /* background-color: blue; */
+    display: flex;
+    /* margin: 10px; */
+    justify-content: center;
+        flex-direction: column;
+  }
+  
+  #view-1{
+    /* border: 3px solid; */
+    background :url(image/white\ c2.webp) ;
+        height: 300px;
+        width: 400px;
+        display: flex;
+        border-radius: 20px;
+        margin: 20px;
+  }
+  #view-2{
+    border: 3px solid;
+        /* background-color: black; */
+        height: 300px;
+        width: 400px;
+        display: flex;
+        border-radius: 20px;
+    background: url(image/lightbrown.webp);
+        margin: 1px;
+  }
+  /* we will have a div with paragraph here */
+  .para{
+        /* border: 3px solid; */
+        height:200px ;
+       width: 80%;
+        display: flex;
+            justify-content: center;
+                    border-radius: 30%;
+            margin: auto;
+                background: url(image/green\ c.webp);
+  }
+  .inside-para{
+    border: 3px solid;
+        height: 150px;
+        width:80%;
+        border-radius: 5%;
+       margin: 20px;
+       
+  }
+  /* end of the main work */
+  /* the footer part */
+  .footer{
+    /* height: 350px;
+    width: 100%; */
+        color: white;
+        margin-top:20px ;
+  }
+
+  .copy{
+    margin-left: 60%;
+   }
+
+  .icon{
+    margin: 20px;
+  }
+  #ic{
+    margin: 10px;
+    font-size: 40px;
+   }
+  #ic:hover{
+     font-size: 50px;
+     color: blue;
+  }
